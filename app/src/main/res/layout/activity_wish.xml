@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/jhjh"
+    tools:context=".WishActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/ha"
+        android:text="HAPPY BIRTHDAY"
+        android:textColor="#224579"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv"
+    android:gravity="center"
+    android:textColor="#a11a7f"
+    android:textSize="40sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="300dp"
+        android:textColor="#2a7028"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
